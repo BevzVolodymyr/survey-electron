@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Опитування про звички харчування</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="surveyTitle">Опитування про звички харчування</h1>
+    <div class="progress-section">
+      <div class="progress-bar">
+        <div id="progressBar" class="progress-fill"></div>
+      </div>
+      <p id="progressText" class="progress-text"></p>
+    </div>
+    <div id="questionContainer" class="question-container">
+      <h2 id="questionText" class="question-text"></h2>
+      <div id="answerControls" class="answer-controls"></div>
+    </div>
+    <div class="button-group">
+      <button id="btnPrevious" class="btn btn-secondary" disabled>Назад</button>
+      <button id="btnNext" class="btn btn-primary">Далі</button>
+      <button id="btnExit" class="btn btn-danger">Вийти</button>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
